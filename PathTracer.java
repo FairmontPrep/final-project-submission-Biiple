@@ -4,16 +4,11 @@ public class PathTracer {
 
     // Grid input (test_array_2)
     private static final List<List<Integer>> GRID = Arrays.asList(
-            Arrays.asList(1, 0, 0, 0, 0, 0),
-            Arrays.asList(0, 0, 0, 0, 0, 0),
-            Arrays.asList(1, 1, 1, 1, 0, 0),
-            Arrays.asList(9, 0, 0, 1, 1, 1),
-            Arrays.asList(0, 1, 1, 1, 0, 0),
-            Arrays.asList(0, 1, 0, 1, 0, 0),
-            Arrays.asList(0, 1, 0, 1, 0, 0),
-            Arrays.asList(0, 1, 0, 1, 0, 0),
-            Arrays.asList(0, 1, 0, 0, 0, 0),
-            Arrays.asList(0, 1, 0, 0, 0, 0)
+            Arrays.asList(1, 0, 1, 1, 0, 0),
+            Arrays.asList(0, 0, 1, 0, 1, 0),
+            Arrays.asList(1, 1, 1, 1, 1, 0),
+            Arrays.asList(9, 0, 0, 0, 0, 0)
+           
     );
 
     private static final int[][] DIRS = { {-1, 0}, {0, 1}, {1, 0}, {0, -1} };
