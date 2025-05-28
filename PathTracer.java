@@ -5,13 +5,10 @@ public class PathTracer {
     /** 2-D grid: 1 = path cell, others are irrelevant to tracing logic. */
     private static final List<List<Integer>> GRID = Arrays.asList(
             Arrays.asList(1, 0, 0, 1, 0, 0, 0, 0),
-            Arrays.asList(0, 0, 0, 1, 0, 0, 0, 0),
-            Arrays.asList(0, 0, 0, 1, 0, 0, 1, 0),
-            Arrays.asList(9, 0, 0, 1, 0, 0, 0, 0),
-            Arrays.asList(0, 0, 0, 1, 0, 0, 0, 0),
-            Arrays.asList(0, 0, 0, 1, 0, 0, 0, 0),
-            Arrays.asList(0, 0, 0, 1, 2, 0, 0, 0),
-            Arrays.asList(1, 0, 0, 1, 1, 1, 1, 1)
+            Arrays.asList(0, 0, 0, 0, 0, 0, 0, 0),
+            Arrays.asList(1, 1, 1, 1, 1, 1, 1, 1),
+            Arrays.asList(9, 0, 0, 0, 0, 0, 0, 1)
+           
     );
 
     /** Four orthogonal neighbours. */
